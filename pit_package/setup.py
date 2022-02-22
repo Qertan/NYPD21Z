@@ -1,11 +1,10 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 setup(
-    name='NYPD_zal',
+    name='pit_poland',
     version='1.0',
-    packages=['pit_poland.analysis', 'pit_poland.data_import', 'pit_poland.data_export'],
-    url='https://github.com/Qertan/NYPD21Z',
+    packages=find_packages(),
     license='BSD 2-clause',
     author='Jakub Bandurski',
     author_email='j.bandurski@student.uw.edu.pl',
