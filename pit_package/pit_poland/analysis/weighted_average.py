@@ -1,4 +1,4 @@
-# Funkcja oblicza wazona srednia dochodow dla jednostek podleglych
+# Funkcja oblicza wazona srednia dochodow dla jednostek podleglych (lower) danej jednostki (upper)
 
 def weighted_average(lower_tier, upper_tier):
     # Zapobiegniecie zmian argumentow
@@ -16,4 +16,5 @@ def weighted_average(lower_tier, upper_tier):
     upper_tier['weighted_average_income'] = upper_tier["weighted_sum"] / upper_tier["Population"]
     # Usuniecie miast NPP
     upper_tier = upper_tier[upper_tier.weighted_sum != 0]
+    upper_tier = upper_tier.drop(columns=['weighted_sum'])
     return upper_tier
