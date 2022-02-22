@@ -7,6 +7,7 @@ from .analysis.weighted_average import weighted_average
 from .analysis.variance_income import variance_income
 from .analysis.charts import diff_pie, avg_bar
 
+
 __all__ = ("gminy_import_pit", "gminy_import_ppl", "powiaty_import_pit", "powiaty_import_ppl", "wojewodztwa_import_pit",
            "wojewodztwa_import_pit", "difference_pit", "average_income", "weighted_average", "variance_income",
            "save_to_excel", "diff_pie", "avg_bar")
