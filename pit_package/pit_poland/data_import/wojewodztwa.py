@@ -18,7 +18,6 @@ def wojewodztwa_import_pit(data_wojewodztwa_pit_path):
         data_wojewodztwa_pit.insert(0, 'id', id)
     return data_wojewodztwa_pit
 
-#print(wojewodztwa_import_pit("Z:/Kuba/Studia/uw/III rok/nypd/pit_2020/20210211_Województwa_za_2020.xlsx"))#
 
 # Funkcja wczytuje do dataframe plik excel z ludnoscia, znajdujący się pod podaną ściezka. (jeżeli istnieje)
 def wojewodztwa_import_ppl(data_wojewodztwa_ppl_path):

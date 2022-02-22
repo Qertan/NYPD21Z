@@ -50,3 +50,5 @@ var_wojewodztwa = pit_package.pit_poland.analysis.variance_income(avg_powiaty, a
 
 #pit_package.pit_poland.analysis.charts.diff_pie(diff_wojewodztwa, "Różnice w województwach")
 pit_package.pit_poland.analysis.charts.avg_bar(avg_wojewodztwa, "Ranking dochdoów w województwach")
+
+powiaty_all = weigh_avg_powiaty.join()
