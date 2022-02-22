@@ -1,6 +1,7 @@
 # Funkcja oblicza roznice w dochodach z PIT dla jst (jezeli jst przestaje istniec lub wlasnie powstala
 # to nie ma sensu mowic o jej roznicy w dochodzie z PIT.
 
+
 def difference_pit(data19, data20):
     # Zapobiegniecie zmian argumentow
     data19 = data19.copy(deep=True)

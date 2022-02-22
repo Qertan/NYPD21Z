@@ -1,5 +1,6 @@
 # Funkcja oblicza wazona srednia dochodow dla jednostek podleglych (lower) danej jednostki (upper)
 
+
 def weighted_average(lower_tier, upper_tier):
     # Zapobiegniecie zmian argumentow
     lower_tier = lower_tier.copy(deep=True)

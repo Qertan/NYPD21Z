@@ -1,5 +1,6 @@
 from setuptools import setup
 
+
 setup(
     name='NYPD_zal',
     version='1.0',

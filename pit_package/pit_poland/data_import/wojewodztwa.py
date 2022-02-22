@@ -31,5 +31,3 @@ def wojewodztwa_import_ppl(data_wojewodztwa_ppl_path):
         id = ['02', '04', '06', '08', '10', '12', '14', '16', '18', '20', '22', '24', '26', '28', '30', '32']
         data_wojewodztwa_ppl.insert(loc=0, column="id", value=id)
     return data_wojewodztwa_ppl
-# df=wojewodztwa_import_ppl("C:/Users/48791/PycharmProjects/dane/ludnosc/Tabela_IV.xls")
-# print(df.head)

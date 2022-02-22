@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 # Funkcja tworzy sprecyzowany wykres kołowy.
 def diff_pie(data, title):
         labels = ['2020↑', '2020↓']

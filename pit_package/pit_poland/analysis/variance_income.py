@@ -1,5 +1,6 @@
 # Funkcja oblicza wariancje dochodow w jednostkach podleglych (lower) danej jednostki (upper)
 
+
 def variance_income(lower_tier, upper_tier):
     # Zapobiegniecie zmian argumentow
     lower_tier = lower_tier.copy(deep=True)

@@ -36,8 +36,6 @@ def powiaty_import_pit(data_powiaty_pit_path, data_powiaty_NPP_pit_path):
         data_powiaty_pit = data_powiaty_pit.sort_values(by=['id'], ignore_index=True)
     return data_powiaty_pit
 
-#print(powiaty_import_pit("Z:/Kuba/Studia/uw/III rok/nypd/pit_2020/20210215_Miasta_NPP_2_za_2020.xlsx"))
-
 # Funkcja wczytuje do dataframe plik excel z ludnoscia, znajdujący się pod podaną ściezka. (jeżeli istnieje)
 def powiaty_import_ppl(data_powiaty_ppl_path):
     if not os.path.exists(data_powiaty_ppl_path):

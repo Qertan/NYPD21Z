@@ -18,8 +18,6 @@ def gminy_import_pit(data_gminy_pit_path):
         data_gminy_pit.insert(0,'id',id)
     return data_gminy_pit
 
-#print(gminy_import_pit("Z:/Kuba/Studia/uw/III rok/nypd/pit_2020/20210215_Gminy_2_za_2020.xlsx"))
-
 # Funkcja wczytuje do dataframe plik excel z ludnoscia, znajdujący się pod podaną ściezka. (jeżeli istnieje)
 def gminy_import_ppl(data_gminy_ppl_path):
     if not os.path.exists(data_gminy_ppl_path):
@@ -30,5 +28,3 @@ def gminy_import_ppl(data_gminy_ppl_path):
                                        dtype={0: str, 1: str}, engine='xlrd',
                                        skiprows=list(range(8))).dropna(how='any')
     return data_gminy_ppl
-# df=gminy_import_ppl("C:/Users/48791/PycharmProjects/dane/ludnosc/Tabela_IV.xls")
-# print(df.head)

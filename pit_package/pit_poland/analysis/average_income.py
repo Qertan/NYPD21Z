@@ -1,4 +1,6 @@
 from .constants import tax, working_percent
+
+
 # Funckja oblicza sredni dochod opodatkowany przy powyzszych zalozeniach
 def average_income(pit, ppl):
     #Zapobiegniecie zmian argumentow
